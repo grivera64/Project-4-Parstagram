@@ -11,7 +11,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -146,6 +146,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Rma-2H-UK0">
+                        <barButtonItem key="leftBarButtonItem" title="Log Out" id="574-eA-jaL">
+                            <connections>
+                                <action selector="onLogoutButton:" destination="4Gi-9u-9az" id="nQR-vq-RH8"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="+" image="insta_camera_btn" id="3F2-0z-dzI">
                             <connections>
                                 <segue destination="VA3-ZM-Gm6" kind="presentation" id="PWH-Qh-6fq"/>
@@ -211,7 +216,7 @@
         <!--Navigation Controller-->
         <scene sceneID="9mO-Jc-JDm">
             <objects>
-                <navigationController id="dAl-fM-fi4" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FeedNavigationController" id="dAl-fM-fi4" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ehl-lh-Ofy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
