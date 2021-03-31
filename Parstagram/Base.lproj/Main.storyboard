@@ -169,7 +169,7 @@
                                 <action selector="onLogoutButton:" destination="4Gi-9u-9az" id="PS2-Ia-MGD"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="+" image="insta_camera_btn" id="3F2-0z-dzI">
+                        <barButtonItem key="rightBarButtonItem" title="Post Image" image="insta_camera_btn" id="3F2-0z-dzI">
                             <connections>
                                 <segue destination="VA3-ZM-Gm6" kind="presentation" id="PWH-Qh-6fq"/>
                             </connections>
