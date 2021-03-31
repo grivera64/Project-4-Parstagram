@@ -26,7 +26,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let main = UIStoryboard(name: "Main", bundle: nil)
             
             let feedNavigationController = main.instantiateViewController(identifier: "FeedNavigationViewController")
-            window?.rootViewController = feedNavigationController
+            //window?.rootViewController = feedNavigationController
             
         }
         
