@@ -103,7 +103,7 @@
         <!--Feed View Controller-->
         <scene sceneID="3Kf-un-ysC">
             <objects>
-                <viewController storyboardIdentifier="FeedNavigationViewController" modalPresentationStyle="fullScreen" id="4Gi-9u-9az" customClass="FeedViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FeedViewController" modalPresentationStyle="fullScreen" id="4Gi-9u-9az" customClass="FeedViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BMD-iv-mVg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -289,10 +289,10 @@
             </objects>
             <point key="canvasLocation" x="2486.9565217391305" y="105.80357142857143"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Feed Navigation View Controller-->
         <scene sceneID="9mO-Jc-JDm">
             <objects>
-                <navigationController storyboardIdentifier="FeedNavigationController" modalPresentationStyle="fullScreen" id="dAl-fM-fi4" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FeedNavigationController" modalPresentationStyle="fullScreen" id="dAl-fM-fi4" customClass="FeedNavigationViewController" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ehl-lh-Ofy">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

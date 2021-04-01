@@ -20,13 +20,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let _ = (scene as? UIWindowScene) else { return }
         
         
-        if (PFUser.current != nil)
+        if (PFUser.current() != nil)
         {
             
             let main = UIStoryboard(name: "Main", bundle: nil)
             
-            let feedNavigationController = main.instantiateViewController(identifier: "FeedNavigationViewController")
-            //window?.rootViewController = feedNavigationController
+            let feedNavigationController = main.instantiateViewController(identifier: "FeedNavigationController")
+            window?.rootViewController = feedNavigationController
             
         }
         
